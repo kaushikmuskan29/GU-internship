@@ -1,0 +1,50 @@
+ If all three types of CSS are used then the inline CSS will be given priority
+
+ If we talk about internal and external CSS - prefrence will be given to the one which is written below
+
+ box model -->
+ 1. Content
+ 2. Padding
+ 3. Border
+ 4. Margin
+
+ units ->
+ 1. px - fix
+ 2. relative - % - relative to parent, (vh, vw) - relative to viewport, rem
+
+ For border radius we can giv value in px and for square we can give value in %
+
+  padding: 50px 100px; means 50 from top and bottom &  100 for left and right
+
+  in case of 4 - it will follow clockwie - top , right , bottom , left
+
+
+  positions --> relative(from its initial position i.e top 50px then it will move 50px down from top [left and top get prefrence]), 
+  absolute, (the element will move wrt to the parent which has a position else body)
+  fixed, (element is fixed on screen , element moves wrt to body(view port))
+  sticky (combination of absolute ad fixed position)
+  drawback - if we scroll below parent..so sticky does not visible
+
+
+
+  selectors --> decendent selector( #relative-container div   ----- will select all divs in this)
+  child selector (#relative-container > div  ----- will select all the children of this i.e three divs and one section tag)
+  nth-of-type  (div:nth-of-type(2) ---- will target second div)
+
+
+
+  flex --> get applied on container (handles display and childs of container)
+  Justify content --> aligns chilsd wrt to main axis
+
+  space between - it arranges all the space between the childs(no space on edges)
+  space around - it spreads all the space equally around the child (less at edges(double))
+  space evenly - it spreads the space evenly across the main axis
+  (handles extra space around the main axis)
+
+   align items --> aligns chilsd wrt to cross axis
+
+   flex prevents overflow by shrinking elements
+
+   to prevent shrinking we can use wrap (shift child in next row if it is at a shrink position)
+
+   gap is min. row and column gap

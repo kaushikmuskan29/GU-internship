@@ -1,0 +1,29 @@
+grid(container property) - table(includes rows and columns)
+ - any child can be placed in any cell
+
+colors - 
+1. by name
+2. rgb
+3. rgba
+4. hexadecimal
+
+
+cover
+container
+contain
+
+pseudo selectors --
+hover
+active
+focus
+
+transition --
+transform -- change into another(1. rotateX(), rotateY(), rotate() in degrees and radian
+2. scaleX(), scaleY(), scale() in multiplier means if 2 is given then it will be 2 times
+3. translateX(200) having +ve and -ve values , +ve values means right and vice-versa ,,,,,,
+translateY(200px) - it is opposite of X , so +ve means bottom and -ve means upward)
+
+
+
+
+media query - (responsive design)

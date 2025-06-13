@@ -1,0 +1,20 @@
+#container{
+    width: 50vw;
+    height: 50vh;
+    background-color: lightblue;
+}
+/* @media (width >= 500px){
+
+} */
+
+@media (min-width : 500px){
+    #container{
+        background-color: red;
+    }
+}
+
+@media (min-width : 800px){
+    #container{
+        background-color: yellow;
+    }
+}

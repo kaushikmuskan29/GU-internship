@@ -1,0 +1,69 @@
+target is written in <a> for opening link on another page
+./ for same folder  ad .// for another folder
+controls for play/pause in videos
+loop for loop in video, autoplay for 
+disadvantage of inline - we can't apply dimension property 
+
+inline block --> act as inline and we can also apply dimension
+
+table -->
+
+thead - for headings
+tbody - for storing content
+tfoot - for table footer / summary of table
+
+th - for single headings
+td - table disadvantage
+tr - data gets wrapped in tr
+
+forms -->
+for - for activating corresponding input
+we pass id in for
+type - which type of dataid - unique id 
+name - for retriving data(can access through it) 
+
+http://127.0.0.1:5500/lecture1/form.html?NAME=Muskan+Kaushik&EMAIl=kaushikmuskan2006%40gmail.com&PASSWORD=12345678#
+
+default method is get method..which saves data in url(query parameters) and is not secure . So, we can use POST method for this (data is available in form data)
+
+action - where to save data
+
+
+
+HTML SEMANTICS 
+
+header, body, footer
+
+header - navbar(list, logo)
+body - content
+footer - information
+
+
+## Body - categorization(<section>)
+
+1. Landing Page - 
+2. features
+3. reviews
+
+#div tag is used to divide categoris in sub categories
+#SEO rules -
+1. There should be 1 <h1> in a single page
+2. <h2> should be 3-4 times in a single page
+3. <h3> - <h6> have no limit
+4. meta tag --> information about web page
+
+
+
+
+CSS
+        1 Inline CSS - style attribute within the tag
+
+        2 Internal CSS - Headedr me style tag use krke
+
+        3 External CSS - another file (.css) 
+
+        selectors for internal and external CSS --
+            tag/element 
+            Id selectors
+            Class selectors
+            Universal selectors

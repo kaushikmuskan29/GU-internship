@@ -1,0 +1,20 @@
+#conatiner{
+    display: grid;
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+    /* grid-template-columns: 20vw 20vw 40vw;   */
+    /* grid-template-rows: 20vh 20vh 40vh;*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    grid-template-columns: repeat(3, 1fr) 2fr;
+}
+
+#conatiner > div{
+    border : 1px solid black;
+}
+#conatiner > div:nth-child(3){
+    background-color: aquamarine;
+    grid-row: 2/4;
+    grid-column: 3/5;
+}

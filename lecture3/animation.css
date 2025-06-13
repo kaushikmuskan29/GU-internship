@@ -1,0 +1,74 @@
+h2 {
+  /* background: linear-gradient(to right); */
+  background: linear-gradient(45deg, #6f1b49, #bb9457, #5c2a99, hwb(36 65% 0%));
+  /* background-image: url(https://th.bing.com/th/id/R.78a13c9eb31108addb76f77ada4589ff?rik=b%2fIodCIvyGbxCA&riu=http%3a%2f%2ffiles.all-free-download.com%2fdownloadfiles%2fwallpapers%2f1920_1080%2fpeaceful_lake_wallpaper_landscape_nature_1208.jpg&ehk=6EYMLnN48Cs4mGNjCqvvjwaPz6MF2KRLIUOhJG57Z8g%3d&risl=&pid=ImgRaw&r=0); 
+  background-size: cover;  */
+}
+h2:hover {
+  background: linear-gradient(145deg, #6f1d1b, #bb9457, #99582a, #ffe6a7);
+}
+h2:active {
+  background: linear-gradient(145deg, red, brown, orange, skyblue);
+}
+input{
+    background: linear-gradient(145deg, pink, bisque, black, white);
+}
+input:focus{
+    background: linear-gradient(90deg, aqua, aquamarine, purple, orange);
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+#box:hover{
+     /* transform :rotate(90deg);
+     transform :rotate(5turn); */
+     /* transform: scale(1.05); */
+     /* border-radius: 50%; */
+     transform: translate(500px);
+     transition-duration: 2s;
+     /* transition-delay: 1s;   */
+     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#box2{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0.34, 0.08, 0.55, 0.95);
+  /* animation-iteration-count: 5;
+  animation-direction: alternate; */
+  /* Position after animation stops */
+  animation-fill-mode: forwards;
+}
+/* @keyframes move{
+  from{
+    transfom : translateX(0px);
+  }
+  to{
+    transform: translateX(500px);
+  }
+} */
+
+@keyframes move{
+  0%{
+    transfom : translateX(0px);
+  }
+  25%{
+    transform: translateX(500px);
+  }
+  50%{
+    transform: translateY(500px) translateX(500px) rotate(360deg);
+  }
+  /* to make line straight we can write translateY(500px) to persist the value of y */
+  75%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateY(0px) rotate(0deg);
+  }
+  
+}
