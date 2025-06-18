@@ -1,0 +1,6 @@
+git & github
+
+1. why ? - to save our data/code
+2. types of version control -
+
+no. of commits = no. of versions

@@ -1,0 +1,1 @@
+arr = [6, 7, 8, 9, 10] // this is reassignment and not allowed
