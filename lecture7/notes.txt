@@ -3,4 +3,70 @@ git & github
 1. why ? - to save our data/code
 2. types of version control -
 
+u means untracked changes
+m means modified
+a means staging area
+
 no. of commits = no. of versions
+
+1...  git init - git initialise 
+ 
+1. staging area --- its a waitig lobby, so that we can recheck code
+                        git add .(dot means all files..it will detect by itself)
+
+
+2.  git commit - it creates a version of code you want to save and save the code to the local repository with a name(short description)
+
+
+
+2... git add .
+
+3... git commit - then acc. to the command username of github and then email of github/ git commit -m "done"
+
+for vim editor -----
+1. press "i" to write
+2. then give a short description
+3. press "esc" to exit writing
+4. type ":wq" to save commit
+
+4... git log - shows all commits/versions
+
+5... git checkout id - 
+for current version - git checkout master/main
+
+head always point to latest version or main/master
+
+
+
+branches --------- s that more than 2 people can work on a same project
+git branch -M _branch name___      --> -M is used to change branch name
+to check in which branch you are - git branch
+to switch -git checkout branch name/ git switch branch name
+
+git checkout -b branch name --- creates branch an switch to this branch
+
+on github ----
+
+create a new repo
+then paste remote add origin __github repo link___
+git push origin main
+
+git pull origin - branch name whose code you want
+
+git merge __branch___ 
+
+pull is generally not used for merging
+
+merge conflicts ---
+
+ when two or more branches are merged and they have different code at same place then it will create a merge conflict you can
+                resolve it like the keep current, keep incoming or keep with prefrence like ehich one is above and which one will come below
+
+
+
+
+
+
+
+
+
