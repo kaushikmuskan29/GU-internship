@@ -1,3 +1,10 @@
-    // (a==b?(a===b?console.log("a and b both are of same data type")
-    // :console.log("a and b both are of different data type"))
-    // :console.log("not equal"))
+function helper(){
+//     console.log("Helper function is executing.......")
+//     return 10
+// }
+
+// function higherOrder(fun){
+//     console.log("Higher Order executing.......")
+//     let res = fun();
+//     return res+5;
+// }
