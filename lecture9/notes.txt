@@ -1,0 +1,16 @@
+asynchronous js --> don't wait for the upper line of code to show result/output
+
+methods and functions -->
+1. setTimeout
+2. setInterval
+3. promises
+4. asyc functions
+
+promises           ------------->
+
+its a method which helps us to execute some functions or task asynchronously and also helps to determine whether its successful or failed
+
+three states ->
+1. resolve(success)
+2. reject(failure)
+
