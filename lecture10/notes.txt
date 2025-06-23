@@ -1,0 +1,21 @@
+DOM -> document object model
+
+Selectors -> 1. getElementsByTagName      [returns list of element]
+2. getElementsByClass                    [returns list of element]
+3. GetElementById                        [returns single element]
+4. querySelector(" ")  -- returns first matching single element of the type(tagName, .classname, #id)    [returns single element]
+5. querySelectorAll(" ")  -- returns all matching elements of the type(tagName, .classname, #id)         [returns list of element]
+
+getter -> 1. innerText, innerHTML, textContent 
+2. .id, .className -- we can allso change class and id using css...like this ------ container.className = "background"
+.......>  getAttribute("attribute","new value")
+3. add, remove, toggle
+
+
+setters -> 1. innerText = "some other text"  [assignment operator is setter] - shows the tag as content
+2. innerHTML = "some other text"  [assignment operator is setter] -- also keeps the tag
+3. setAttribute("attribute","new value")
+
+Push element in HTML ->
+1. .append(push text && element too)
+.appendChild(push element only)
