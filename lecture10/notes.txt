@@ -19,3 +19,18 @@ setters -> 1. innerText = "some other text"  [assignment operator is setter] - s
 Push element in HTML ->
 1. .append(push text && element too)
 .appendChild(push element only)
+
+Event listners ->
+
+events - any action perform by a user on a web page
+            e.g - "click", "mousehover", "submit", "scroll", "keypress" etc. 
+
+listners - which listens to an event continuously and performs a function whn event triggers.
+
+event refrence - stores setails related to event. like event origin element . event position etc.
+
+e.target - return the element inside h1 at which the event is trigger
+
+event bubbling - the event will propagate fro child to parent if both have same event
+
+e.stopPropagation() - use this in child to stop propagation
