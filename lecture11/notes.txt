@@ -1,0 +1,19 @@
+Node.js -- RuneTime environment for js
+
+Express - framework build over node js(server creation - gives easy syntax)
+
+
+
+framework(has set of rules and if you don't follow...page will not work)
+and in library you can bend a per wish and has some replacement
+
+we can use npm init and then just press enter..no need to fill any info or we can simply run the command npm init -y(it will automatically fill all the necessary infomation in the package.json )
+
+npm install express - will install both node modules and package-loc json
+
+npm i -- to install required packages and modules
+
+        npm install express -- to install the required and node modules in one go
+
+        node index.js -- runs the server or we can use nodemon index.js after installing nodemon via npm i -g nodemon
+            nodemon automatically restart the server after we do some changes in the file
