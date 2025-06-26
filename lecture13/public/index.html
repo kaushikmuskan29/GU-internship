@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body class="bg-gray-50">
+ <div id="card" class="bg-white p-10 w-[80vw] shadow-xl m-25 mt-10">
+    <h1 class="flex justify-center items-center text-4xl font-bold p-10">TaskMaster</h1>
+
+  <form id="toDo" class="flex items-center gap-3 w-[90%] mx-auto mt-6">
+  <input
+    type="text"
+    placeholder="Add a new task..."
+    class="flex-grow border border-gray-300 rounded p-2"
+    required
+  />
+  <button class="bg-green-500 text-white px-4 py-2 rounded">
+    Add Task
+  </button>
+</form>
+
+<div id="container" class="flex flex-col gap-3"></div>
+
+
+    <div class="mt-5 flex justify-center items-center " id="btn-container">
+        <button id="all" class="bg-gray-200 active:scale-105 w-25 h-9 rounded mr-5">All</button>
+        <button id="active" class="bg-gray-200 active:scale-105 w-25 h-9 rounded mr-5">Active</button>
+        <button id="completed" class="bg-gray-200 active:scale-105 w-25 h-9 rounded">Completed</button>
+    </div>
+    <div class="flex justify-center items-center pt-6">
+        <button id="clear" class=" border text-white bg-red-500 w-40 h-9 rounded flex justify-center items-center active:scale-105">Clear Completed</button>
+    </div>
+    
+
+ </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
