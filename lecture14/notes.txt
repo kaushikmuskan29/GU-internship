@@ -1,0 +1,26 @@
+mongodb+srv://kaushikmuskan2006:kaushikmuskan2006@cluster0.0kify0r.mongodb.net/
+
+DATABASE:-
+STORAGE 
+            1.SQL(structure query language)                         2.NoSQL(mongoDB)
+            -structure format                                       - no structure format
+            -no extra field can be added                            - can add new fields
+
+
+moongose - provides structure to mongoDB, provides queries to create, read, update and delete DATABASE
+
+     CRUD OPERATIONS - CREATE, READ, UPDATE, DELETE
+
+schema(operation) - In this we createa bleprint, that how a document will look like in a collection 
+
+moongose.Schema({
+
+})
+
+to add document in collection -----
+1. Usercreate({
+    name:"sdfb",
+    email:"knkn@gmail.com",
+    age:25,
+    arr:["sdf","bvb","hui"]
+})
