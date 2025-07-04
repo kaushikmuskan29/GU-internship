@@ -24,3 +24,11 @@ to add document in collection -----
     age:25,
     arr:["sdf","bvb","hui"]
 })
+
+mrc structure - model(schemas and collections) , routes(path of api), controllers(logics like create user, update and others)
+
+// moduler structure - using export to export functions, methods ad models & require to import it in files where we want to use them
+
+why mrc structure is important ? 
+        1. Gives Categorization for every models, routes so that it can be edit easily in future so that every functionality can be accessed easily
+        2. 

@@ -51,6 +51,23 @@ app.delete("/clear-complete",(req,res)=>{
     res.status(200).json({TODOS});
 })
 
+app.get("/todo/filter", (req,res)=>{
+    const filter = req.query.filter;
+    if(filter == "active"){
+        const filteredTodos = TODOS.filter((todo)=>{
+            return todo.completed == false
+        })
+        return res.status(200).json({TODOS:filteredTodos})
+    }
+    if(filter == "completed"){
+        const filteredTodos = TODOS.filter((todo)=>{
+            return todo.completed == true
+        })
+        return res.status(200).json({TODOS:filteredTodos})
+    }
+    res.status(200).json({TODOS})
+})
+
 app.get("/all-todos",(req,res)=>{
     res.status(200).json({TODOS})
 })
